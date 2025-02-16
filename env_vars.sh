@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # set these variables before running the script
-LOCAL_BORZOI_PATH="/home/jlinder/borzoi"
-LOCAL_CONDA_PATH="/home/jlinder/anaconda3/etc/profile.d/conda.sh"
+LOCAL_BORZOI_PATH="/mnt/10tb/home/patsukevichan/borZoi/borzoi"
+LOCAL_CONDA_PATH="/mnt/10tb/home/patsukevichan/anaconda3/etc/profile.d/conda.sh"
 
 # create env_vars sh scripts in local conda env
 mkdir -p "$CONDA_PREFIX/etc/conda/activate.d"
